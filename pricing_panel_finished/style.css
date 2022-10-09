@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 
   width: 100%;
   max-width: 800px;
@@ -92,8 +92,7 @@ body {
   .panel {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1rem;
-    /* padding: 3rem; */
+    gap: 3rem;
   }
 
   .pricing-plan > img {
@@ -105,5 +104,16 @@ body {
   .divider {
     width: 1px;
     height: 416px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .panel {
+    padding: 2rem;
+    max-width: 1000px;
+  }
+
+  .pricing-plan > img {
+    max-width: 250px;
   }
 }
